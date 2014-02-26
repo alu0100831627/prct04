@@ -10,9 +10,9 @@ if a != 0:
 else:
   if b != 0:
     x = -c / b
-    print ’La solucion de la ecuacion es: x=%4.3f’ % x
-else:
-  if c != 0:
-    print ’La ecuacion no tiene solucion’
+    print 'La solucion de la ecuacion es: x=%4.3f' % x
   else:
-    print ’La ecuacion tiene infinitas soluciones’
+      if c != 0:
+        print 'La ecuacion no tiene solucion'
+      else:
+        print 'La ecuacion tiene infinitas soluciones'
